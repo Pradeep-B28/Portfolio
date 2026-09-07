@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-center: #0D1526;
+    --bg-edge: #050810;
+    --color-gold: #E8C468;
+    --color-magenta: #E84DE8;
+    --color-cyan: #4DEBFF;
+    --color-line-dim: #C9BFA0;
+    --color-text-primary: #EAF0FA;
+    --color-text-secondary: #7C8AA6;
+  }
+
+  body {
+    background: radial-gradient(circle at center, #0D1526 0%, #050810 100%);
+    color: #EAF0FA;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Deep Space Glassmorphism Panels */
+.space-glass {
+  background: rgba(13, 21, 38, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(124, 138, 166, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.space-glass-gold {
+  background: rgba(26, 36, 59, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 196, 104, 0.4);
+  box-shadow: 0 0 30px rgba(232, 196, 104, 0.15);
+}
+
+.space-glass-anchor {
+  background: rgba(30, 20, 50, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 77, 232, 0.4);
+  box-shadow: 0 0 30px rgba(77, 235, 255, 0.2);
+}
+
+.star-gold-glow {
+  box-shadow: 0 0 16px rgba(232, 196, 104, 0.6);
+}
+
+.anchor-cyan-glow {
+  box-shadow: 0 0 20px rgba(77, 235, 255, 0.6);
+}
+
+.anchor-gradient-text {
+  background: linear-gradient(135deg, #E84DE8 0%, #4DEBFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Deep Space Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050810;
+}
+::-webkit-scrollbar-thumb {
+  background: #25334D;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E8C468;
+}
+
+/* Reduced Motion Helper */
+.reduced-motion * {
+  animation: none !important;
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Star Twinkle animation */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+.animate-twinkle {
+  animation: twinkle 3s infinite ease-in-out;
+}

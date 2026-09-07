@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-sand: #D9A86C;
+    --color-terracotta: #B9673A;
+    --color-umber: #3E2417;
+    --color-bedrock: #241408;
+    --color-gold: #E8C468;
+    --color-cream: #F2E8D5;
+    --color-dusty: #A88A66;
+    --color-particle: #C9B896;
+  }
+
+  body {
+    background-color: #1A0E08;
+    color: #F2E8D5;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Lora', Georgia, serif;
+  }
+
+  code, pre, .font-code {
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+/* Custom Dirt & Earth Glassmorphism UI */
+.dirt-glass {
+  background: rgba(36, 20, 8, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(217, 168, 108, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dirt-glass-gold {
+  background: rgba(45, 26, 12, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 196, 104, 0.4);
+  box-shadow: 0 0 25px rgba(232, 196, 104, 0.15);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px rgba(232, 196, 104, 0.35);
+}
+
+.gold-text-glow {
+  text-shadow: 0 0 12px rgba(232, 196, 104, 0.5);
+}
+
+/* Sediment Layer Background Noise Texture Overlay */
+.sediment-pattern {
+  background-image: radial-gradient(rgba(217, 168, 108, 0.08) 1px, transparent 1px),
+                    radial-gradient(rgba(185, 103, 58, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom Scrollbar for Dig Shaft */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #140A05;
+}
+::-webkit-scrollbar-thumb {
+  background: #B9673A;
+  border-radius: 4px;
+  border: 2px solid #140A05;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E8C468;
+}
+
+/* Reduced Motion Override Helper Class */
+.reduced-motion * {
+  animation: none !important;
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Keyframe Pulsing for Unearth Score */
+@keyframes digPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.85; }
+}
+
+.animate-dig-pulse {
+  animation: digPulse 2s infinite ease-in-out;
+}

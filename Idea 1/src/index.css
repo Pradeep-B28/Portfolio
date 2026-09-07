@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #07090e;
+    --bg-card: rgba(15, 23, 42, 0.7);
+    --bg-card-hover: rgba(30, 41, 59, 0.85);
+    --border-glass: rgba(255, 255, 255, 0.12);
+    --border-glass-hover: rgba(34, 211, 238, 0.45);
+    
+    --primary: #22d3ee;       /* Neon Cyan */
+    --primary-glow: rgba(34, 211, 238, 0.4);
+    --secondary: #a855f7;     /* Neon Purple */
+    --secondary-glow: rgba(168, 85, 247, 0.4);
+    --accent: #10b981;        /* Emerald */
+    --amber: #f59e0b;         /* Gold Amber */
+    
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-heading: 'Outfit', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+    --font-stencil: 'Special Elite', monospace;
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Typography Utilities */
+.font-heading { font-family: 'Outfit', sans-serif; }
+.font-sans-body { font-family: 'Plus Jakarta Sans', sans-serif; }
+.font-mono-code { font-family: 'Fira Code', monospace; }
+.font-stencil { font-family: 'Special Elite', monospace; }
+
+/* Gradient Text Utilities */
+.gradient-text {
+  background: linear-gradient(135deg, #22d3ee 0%, #38bdf8 50%, #a855f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-alt {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-amber {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f97316 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-glow {
+  text-shadow: 0 0 25px rgba(34, 211, 238, 0.5);
+}
+
+/* Glassmorphism Panel Styling */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-glass);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel:hover {
+  border-color: var(--border-glass-hover);
+  box-shadow: 0 12px 40px 0 rgba(34, 211, 238, 0.2);
+}
+
+/* Radial Vignette & Grid Overlay */
+.projector-vignette {
+  background: radial-gradient(circle at 50% 30%, transparent 40%, rgba(7, 9, 14, 0.85) 100%);
+  pointer-events: none;
+}
+
+.grid-overlay-canvas {
+  background-image: 
+    radial-gradient(circle at 50% 20%, rgba(34, 211, 238, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 60%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+  pointer-events: none;
+}
+
+/* Film Grain Overlay */
+.film-grain-overlay {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
+  background-size: 4px 4px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* Sprocket Track Patterns */
+.sprocket-track-top {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #07090e 0px,
+    #07090e 8px,
+    rgba(255, 255, 255, 0.08) 8px,
+    rgba(255, 255, 255, 0.08) 16px,
+    #07090e 16px,
+    #07090e 24px
+  );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sprocket-track-bottom {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #07090e 0px,
+    #07090e 8px,
+    rgba(255, 255, 255, 0.08) 8px,
+    rgba(255, 255, 255, 0.08) 16px,
+    #07090e 16px,
+    #07090e 24px
+  );
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Keyframes & Animations */
+@keyframes projectorFlicker {
+  0%, 100% { opacity: 0.95; }
+  50% { opacity: 1; }
+  75% { opacity: 0.92; }
+}
+
+.animate-projector-flicker {
+  animation: projectorFlicker 0.6s ease-in-out infinite;
+}
+
+@keyframes crawlRoll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-crawl-roll {
+  animation: crawlRoll 35s linear infinite;
+}
+
+.animate-crawl-roll:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 200ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-projector-flicker {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+  .animate-crawl-roll {
+    animation: none !important;
+    transform: none !important;
+  }
+}
