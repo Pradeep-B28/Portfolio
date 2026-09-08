@@ -1,32 +1,42 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🌌 Celestial StarMap 3D — Cosmic Portfolio (Idea 4)
 
-Currently, two official plugins are available:
+### *3D Galaxy Orbit & Glowing Constellation Developer Navigation*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-r160-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the Oxlint configuration
+> [!TIP]
+> **Idea 4 (Celestial StarMap)** maps software engineering skills and projects into glowing star clusters and nebulae. Features a cosmic radar scanner and interactive star field.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## 💫 Highlighted Features
+
+- 🌌 `StarMap3D.tsx`: Particle-based 3D star field with orbit controls.
+- ✨ `SkillsConstellationGraph.tsx`: Node-link constellation network mapping technical competencies.
+- 📡 `CosmicRadarScanner.tsx`: Radar HUD sweeping across active repositories.
+- ⏱️ `CareerTimeSlider.tsx`: Cosmic timeline slider shifting star alignments through the developer's career.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+<div align="center">
+
+Crafted by **[Pradeep](https://github.com/Pradeep-B28)**
+
+</div>

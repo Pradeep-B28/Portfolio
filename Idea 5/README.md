@@ -1,16 +1,42 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🕹️ Cyberpunk Arcade 3D — Retro Cabinet Portfolio (Idea 5)
 
-Currently, two official plugins are available:
+### *80s Synthwave Arcade Machine & Game Cartridge WebGL Showcase*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-r160-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![Arcade FX](https://img.shields.io/badge/Audio-Retro%20Synth-EC4899?style=for-the-badge)]()
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the Oxlint configuration
+> [!IMPORTANT]
+> **Idea 5 (Cyberpunk Arcade)** embeds developer projects into physical 3D game cartridges that can be inserted into an animated CRT arcade cabinet.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🎮 Arcade Features
+
+- 🕹️ `ArcadeCabinet.jsx`: 3D neon-lit arcade machine with interactive coin slot and joysticks.
+- 💾 `CartridgeSelectorBar.jsx`: Insertable game cartridges displaying project stats & tech stack.
+- ⚡ `SkillPowerUpBar.jsx`: Retro health bar and energy meters visualizing proficiency.
+- 🏆 `HighScoresLeaderboard.jsx`: Global high score list highlighting project achievements.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+<div align="center">
+
+Crafted by **[Pradeep](https://github.com/Pradeep-B28)**
+
+</div>

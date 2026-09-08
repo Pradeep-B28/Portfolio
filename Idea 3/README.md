@@ -1,32 +1,42 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🏺 Relic Archaeologist 3D — Stratigraphy Portfolio (Idea 3)
 
-Currently, two official plugins are available:
+### *Underground Dig Shaft & Relic Excavation WebGL Developer Experience*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-r160-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![8D Audio](https://img.shields.io/badge/Audio-8D%20Spatial-8B5CF6?style=for-the-badge)]()
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the Oxlint configuration
+> [!NOTE]
+> **Idea 3 (Relic Archaeologist)** presents projects as ancient technical artifacts unearthed from subterranean rock strata. Scroll vertically down a 3D excavation shaft accompanied by immersive 8D spatial binaural audio.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## ⚡ Key Features
+
+- ⛏️ `DigShaft3D.tsx`: Continuous vertical 3D camera descent through historical career strata.
+- 🗿 `RelicInspectorModal.tsx`: High-detail 3D artifact inspector with rotation controls.
+- 🎧 `Audio8DControlBar.tsx`: Dynamic 8D spatial sound engine with ambient toggle.
+- 📊 `SkillsMatrixHeatmap.tsx`: Stratified heatmap showing skill depth across years.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+<div align="center">
+
+Crafted by **[Pradeep](https://github.com/Pradeep-B28)**
+
+</div>
