@@ -8,6 +8,7 @@
 [![Three.js](https://img.shields.io/badge/Three.js-r160%2B-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Java DSA Roadmap](https://img.shields.io/badge/🗺️_Java_DSA_Roadmap-Explore-ED8B00?style=for-the-badge&logoColor=white)](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 <p align="center">
@@ -65,6 +66,6 @@ npm run dev
 
 <div align="center">
 
-Designed & Created by **[Pradeep](https://github.com/Pradeep-B28)**
+Designed & Created by **[Pradeep](https://github.com/Pradeep-B28)** • Check out **[JAVA-DSA-Roadmap](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)**
 
 </div>
