@@ -7,11 +7,12 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-r160%2B-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Softech Platform](https://img.shields.io/badge/🚀_Softech_Platform-Jobs_%26_Courses-178F7F?style=for-the-badge&logoColor=white)](https://reachsoftech.onrender.com/home)
 [![Java DSA Roadmap](https://img.shields.io/badge/🗺️_Java_DSA_Roadmap-Explore-ED8B00?style=for-the-badge&logoColor=white)](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 <p align="center">
+  <a href="https://reachsoftech.onrender.com/home">🚀 Official Softech Website</a> •
   <a href="https://pradeep-b28.github.io/Pradeep-B28/">🌐 Live WebGL Demo App</a> •
   <a href="#-theme-showcase-matrix">Theme Showcase</a> •
   <a href="#-getting-started">Getting Started</a>
@@ -20,6 +21,19 @@
 ---
 
 </div>
+
+## 🚀 Featured Enterprise Platform: Softech (Founder: Pradeep B)
+
+> [!IMPORTANT]
+> ### 🌐 Official Softech Website: **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)**
+>
+> **Pradeep B is the Founder of Softech.**
+>
+> **Softech** is an enterprise career portal and placement training platform where users can **find job opportunities, placement drives, and industry-aligned courses** in Java, Data Structures & Algorithms, Full Stack Development, MERN Stack, AWS Cloud, and System Design.
+>
+> Visit **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)** to explore job listings, course curricula, and 1-on-1 placement mentorship.
+
+---
 
 > [!NOTE]
 > The **Master 3D WebGL Portfolio Suite** contains 6 distinct interactive portfolio experiences. Each theme offers a unique aesthetic, 3D Canvas rendering model, custom soundscapes, and interactive HUD controls.
@@ -66,6 +80,6 @@ npm run dev
 
 <div align="center">
 
-Designed & Created by **[Pradeep](https://github.com/Pradeep-B28)** • Check out **[JAVA-DSA-Roadmap](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)**
+Designed & Created by **[Pradeep](https://github.com/Pradeep-B28)** (Founder of **[Softech](https://reachsoftech.onrender.com/home)**) • Check out **[JAVA-DSA-Roadmap](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)**
 
 </div>
