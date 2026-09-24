@@ -98,7 +98,7 @@ export const FieldNotesJournal: React.FC<FieldNotesJournalProps> = ({
               <li className="flex items-start gap-2">
                 <span className="text-[#E8C468] font-bold">✓</span>
                 <span>
-                  <strong>Full-Stack Architecture & Tools:</strong> Author of <code>Schema-Sentinel</code> (PostgreSQL AST Risk Analysis), <code>Devstarter</code> (Zero-config Devcontainers), <code>Ledger PWA</code>, and <code>GIT---viz</code> 3D WebGL skyline.
+                  <strong>Full-Stack Architecture & Tools:</strong> Author of <code>Schema-Sentinel</code> (PostgreSQL AST Risk Analysis), <code>Devstarter</code> (Zero-config Devcontainers), <code>Ledger PWA</code>, and <code>GIT_3D_Portfolio</code> 3D WebGL skyline.
                 </span>
               </li>
               <li className="flex items-start gap-2">
