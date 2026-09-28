@@ -24,12 +24,12 @@
 
 ---
 
-## 🚀 Featured Enterprise Platform: Softech (Founder: Pradeep Basha)
+## 🚀 Featured Enterprise Platform: Softech (Founder: Pradeep)
 
 > [!IMPORTANT]
 > ### 🌐 Official Softech Platform: **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)**
 >
-> **Pradeep Basha is the Founder of Softech.**
+> **Pradeep is the Founder of Softech.**
 >
 > **Softech** is an enterprise career portal and placement training platform connecting aspiring software engineers with **job opportunities, placement drives, and rigorous industry-aligned training programs** in Java, Data Structures & Algorithms, Full Stack Development, MERN Stack, AWS Cloud Architecture, and Distributed System Design.
 >
@@ -102,10 +102,10 @@ Open `http://localhost:5173` to interact with the selected 3D theme.
 ## 📄 License & Copyright
 
 ```
-Copyright (c) 2026 Pradeep Basha (Pradeep-B28). All Rights Reserved.
+Copyright (c) 2026 Pradeep (Pradeep-B28). All Rights Reserved.
 
 Licensed under the MIT License. You may freely use, modify, and distribute
 this project under the terms of the MIT license. See the LICENSE file for details.
 ```
 
-Designed with ✨ by **[Pradeep Basha](https://github.com/Pradeep-B28)** (Founder of **[Softech](https://reachsoftech.onrender.com/home)**).
+Designed with ✨ by **[Pradeep](https://github.com/Pradeep-B28)** (Founder of **[Softech](https://reachsoftech.onrender.com/home)**).
