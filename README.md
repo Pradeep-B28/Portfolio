@@ -1,85 +1,111 @@
 <div align="center">
 
-# 🎭 Master 3D WebGL Portfolio Suite
+# 🎭 Master 3D WebGL Portfolio Theme Suite
 
-### *An Immersive Multi-Theme 3D Developer Showcase Built with React, Three.js & Tailwind CSS*
+### *An Immersive Multi-Theme 3D Developer Showcase Ecosystem Built with React, Three.js & Tailwind CSS*
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-r160%2B-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Softech Platform](https://img.shields.io/badge/🚀_Softech_Platform-Jobs_%26_Courses-178F7F?style=for-the-badge&logoColor=white)](https://reachsoftech.onrender.com/home)
-[![Java DSA Roadmap](https://img.shields.io/badge/🗺️_Java_DSA_Roadmap-Explore-ED8B00?style=for-the-badge&logoColor=white)](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Vite](https://img.shields.io/badge/Vite-5.0%2B%20%2F%206.0%2B-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Softech Enterprise](https://img.shields.io/badge/🚀_Softech_Platform-Live_Site-178F7F?style=for-the-badge&logoColor=white)](https://reachsoftech.onrender.com/home)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 <p align="center">
   <a href="https://reachsoftech.onrender.com/home">🚀 Official Softech Website</a> •
   <a href="https://pradeep-b28.github.io/Pradeep-B28/">🌐 Live WebGL Demo App</a> •
-  <a href="#-theme-showcase-matrix">Theme Showcase</a> •
-  <a href="#-getting-started">Getting Started</a>
+  <a href="#-theme-showcase-matrix">Theme Showcase Matrix</a> •
+  <a href="#-core-architecture--shared-schema">Architecture</a> •
+  <a href="#-launching-themes-locally">Quick Start</a> •
+  <a href="#-license--copyright">License & Copyright</a>
 </p>
-
----
 
 </div>
 
-## 🚀 Featured Enterprise Platform: Softech (Founder: Pradeep B)
-
-> [!IMPORTANT]
-> ### 🌐 Official Softech Website: **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)**
->
-> **Pradeep B is the Founder of Softech.**
->
-> **Softech** is an enterprise career portal and placement training platform where users can **find job opportunities, placement drives, and industry-aligned courses** in Java, Data Structures & Algorithms, Full Stack Development, MERN Stack, AWS Cloud, and System Design.
->
-> Visit **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)** to explore job listings, course curricula, and 1-on-1 placement mentorship.
-
 ---
 
-> [!NOTE]
-> The **Master 3D WebGL Portfolio Suite** contains 6 distinct interactive portfolio experiences. Each theme offers a unique aesthetic, 3D Canvas rendering model, custom soundscapes, and interactive HUD controls.
+## 🚀 Featured Enterprise Platform: Softech (Founder: Pradeep Basha)
+
+> [!IMPORTANT]
+> ### 🌐 Official Softech Platform: **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)**
+>
+> **Pradeep Basha is the Founder of Softech.**
+>
+> **Softech** is an enterprise career portal and placement training platform connecting aspiring software engineers with **job opportunities, placement drives, and rigorous industry-aligned training programs** in Java, Data Structures & Algorithms, Full Stack Development, MERN Stack, AWS Cloud Architecture, and Distributed System Design.
+>
+> Visit **[https://reachsoftech.onrender.com/home](https://reachsoftech.onrender.com/home)** to explore job listings, enterprise course curricula, and 1-on-1 placement mentorship.
 
 ---
 
 ## 🎨 Theme Showcase Matrix
 
-| Folder | Theme Name | Visual Concept & 3D Environment | Key Interactive Components |
-| :--- | :--- | :--- | :--- |
-| **[`Idea 1`](Idea%201/)** | 🎬 **Director's Cut** | Cinema Editing Suite with 3D Film Slate | `FilmSlate3D`, `TimelineScrubber`, `DirectorsCutModal` |
-| **[`Idea 3`](Idea%203/)** | 🏺 **Relic Archaeologist** | Archaeological Dig Shaft & Stratigraphy | `DigShaft3D`, `RelicInspectorModal`, `Audio8DControlBar` |
-| **[`Idea 4`](Idea%204/)** | 🌌 **Celestial StarMap** | Cosmic Orbit Galaxy & Glowing Constellations | `StarMap3D`, `SkillsConstellationGraph`, `CosmicRadarScanner` |
-| **[`Idea 5`](Idea%205/)** | 🕹️ **Cyberpunk Arcade** | 80s Retro Arcade Cabinet & Game Cartridges | `ArcadeCabinet`, `CartridgeSelectorBar`, `SkillPowerUpBar` |
-| **[`Idea 6`](Idea%206/)** | 🏦 **Security Vault** | 4-Chamber Financial Bank Vault & Security | `VaultRoom3D`, `LaserGrid3D`, `GoldBullionStacks3D`, `CSOProfileCard` |
+The **Master 3D WebGL Portfolio Suite** encompasses **6 distinct interactive developer portfolio environments**, each engineered with specialized 3D geometries, custom shaders, and Web Audio soundscapes:
+
+| Folder | Theme Name | Visual Concept & 3D Environment | Key Interactive Components | Tech Stack |
+| :--- | :--- | :--- | :--- | :--- |
+| **[`Idea 1`](Idea%201/)** | 🎬 **Director's Cut** | Hollywood Cinema Editing Suite with 3D clapper slate, camera rig, and reel film strip | `FilmSlate3D`, `TimelineScrubber`, `DirectorsCutModal`, `AudioTrackPill` | React 18, Three.js, Vite, TypeScript |
+| **[`Idea 2`](Idea%202/)** | 🔭 **Deep Space Observatory** | Deep-space observatory telescope scanning planetary constellations and stellar nebulae | `ObservatoryCanvas`, `ConstellationOverlay`, `SignalSweepBar`, `DetailDrawer` | React 18, Three.js, Vite, Tailwind CSS |
+| **[`Idea 3`](Idea%203/)** | 🏺 **Relic Archaeologist** | Subterranean excavation dig shaft with geological stratigraphy and illuminated relics | `DigShaft3D`, `RelicInspectorModal`, `Audio8DControlBar`, `DepthGauge` | React 18, Three.js, Vite, TypeScript |
+| **[`Idea 4`](Idea%204/)** | 🌌 **Celestial StarMap** | Cosmic orbital network with glowing interactive skill nodes and gravitational light beams | `StarMap3D`, `SkillsConstellationGraph`, `CosmicRadarScanner`, `OrbitHud` | React 18, Three.js, Vite, TypeScript |
+| **[`Idea 5`](Idea%205/)** | 🕹️ **Cyberpunk Arcade** | Retro 1980s neon arcade cabinet with CRT scanline shaders, cartridges, and 8-bit sound effects | `ArcadeCabinet`, `CartridgeSelectorBar`, `SkillPowerUpBar`, `CRTOverlay` | React 18, Three.js, Vite, JavaScript |
+| **[`Idea 6`](Idea%206/)** | 🏦 **High-Security Vault** | Multi-chamber financial bullion vault with laser tripwires, biometric scanners, and steel door | `VaultRoom3D`, `LaserGrid3D`, `GoldBullionStacks3D`, `CSOProfileCard` | React 18, Three.js, Vite, JavaScript |
 
 ---
 
-## 🛠️ Core Technology Stack
+## 🛠️ Core Architecture & Shared Schema
 
-- **3D Graphics Engine**: Three.js, React Three Fiber (`@react-three/fiber`), React Three Drei (`@react-three/drei`).
-- **UI & Styling**: React 18, Tailwind CSS, Lucide Icons, Framer Motion animations.
-- **Audio & FX**: Web Audio API (8D Spatial Audio, Retro Arcade Sound FX, Vault Hydration SFX).
-- **Build System**: Vite 5+ (Fast HMR & Optimized WebGL Bundling).
+All themes share a single, standardized data source interface defined in `shared/portfolioData.ts`:
 
----
-
-## 🚀 Launching a Specific Theme
-
-To run any of the portfolio themes locally:
-
-```bash
-# Navigate to the chosen theme folder (e.g., Idea 6 - Vault Theme)
-cd "Idea 6"
-
-# Install dependencies
-npm install
-
-# Start Vite dev server
-npm run dev
+```typescript
+export interface ProjectItem {
+  id: string;
+  title: string;
+  tagline: string;
+  category: "ai" | "fullstack" | "systems" | "dsa";
+  technologies: string[];
+  metrics: { [key: string]: string | number };
+  liveUrl?: string;
+  githubUrl?: string;
+}
 ```
 
+This decoupled architectural separation ensures that project data, mentorship statistics, and achievements can be modified once and propagated across any of the 6 portfolio themes.
+
 ---
 
-<div align="center">
+## 🚀 Launching Themes Locally
 
-Designed & Created by **[Pradeep](https://github.com/Pradeep-B28)** (Founder of **[Softech](https://reachsoftech.onrender.com/home)**) • Check out **[JAVA-DSA-Roadmap](https://github.com/Pradeep-B28/JAVA-DSA-Roadmap)**
+To launch and run any of the portfolio themes on your local development machine:
 
-</div>
+```powershell
+# 1. Clone the repository
+git clone https://github.com/Pradeep-B28/Portfolio.git
+cd Portfolio
+
+# 2. Navigate to your desired theme (e.g., Idea 1 - Cinema Director's Cut)
+cd "Idea 1"
+
+# 3. Install dependencies
+npm install
+
+# 4. Start local development server
+npm run dev
+
+# 5. Build for production deployment
+npm run build
+```
+
+Open `http://localhost:5173` to interact with the selected 3D theme.
+
+---
+
+## 📄 License & Copyright
+
+```
+Copyright (c) 2026 Pradeep Basha (Pradeep-B28). All Rights Reserved.
+
+Licensed under the MIT License. You may freely use, modify, and distribute
+this project under the terms of the MIT license. See the LICENSE file for details.
+```
+
+Designed with ✨ by **[Pradeep Basha](https://github.com/Pradeep-B28)** (Founder of **[Softech](https://reachsoftech.onrender.com/home)**).
